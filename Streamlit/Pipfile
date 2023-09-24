@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+pandas = "*"
+numpy = "*"  # Add numpy
+plotly = "*"  # This line will install both plotly.figure_factory and plotly.express
+chart-studio = "*"  # Add chart-studio
+matplotlib = "*"  # Add matplotlib
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
